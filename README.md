@@ -3,36 +3,44 @@
 **Repositório de estudos práticos de SQL com foco em aplicações reais de Data Science**
 
 ## 🎯 Objetivo
-Dominar SQL para análise de dados, feature engineering e integração com pipelines de Machine Learning, com aplicação direta no projeto Loyalty Predict.
+Dominar SQL para análise de dados, feature engineering e integração com pipelines de Machine Learning.
 
-## 🗂️ Estrutura de Estudos
+## 🗂️ Estrutura do Curso por Seções
 
-### 🔥 SQL para Data Science
-- **01-consultas-basicas**: SELECT, FROM, WHERE - fundamentos
-- **02-filtros-avancados**: LIKE, IN, BETWEEN, CASE WHEN
-- **03-agregacoes-estatisticas**: COUNT, SUM, AVG, GROUP BY, HAVING
-- **04-joins-relacionamentos**: INNER JOIN, LEFT JOIN, relações entre tabelas
-- **05-subqueries-ctes**: Subqueries, CTEs, queries complexas
+### 🔥 [01 - Consultas Básicas](./sql-para-data-science/01-consultas-basicas/README.md)
+**Aulas 00-08**: Introdução, conceitos fundamentais, primeiros comandos
+- **Status**: 🟡 Em andamento
+- **Conceitos-chave**: SELECT, FROM, configuração de ambiente
 
-### 📊 Projetos Práticos
-- **analise-engajamento**: Aplicação direta dos conceitos no contexto do Loyalty Predict
-- **estudos-caso**: Análises em datasets públicos
+### 🔥 [02 - Filtros Avançados](./sql-para-data-science/02-filtros-avancados/README.md)  
+**Aulas 09-12**: Filtros complexos, condições, lógica booleana
+- **Status**: ❌ Pendente
+- **Conceitos-chave**: WHERE, CASE WHEN, operadores lógicos
+
+### 🔥 [03 - Agregações Estatísticas](./sql-para-data-science/03-agregacoes-estatisticas/README.md)
+**Aulas 13-19**: Funções agregadoras, agrupamento, estatísticas
+- **Status**: ❌ Pendente
+- **Conceitos-chave**: COUNT, GROUP BY, HAVING, funções estatísticas
+
+### 🔥 [04 - Joins e Relacionamentos](./sql-para-data-science/04-joins-relacionamentos/README.md)
+**Aulas 20-22**: Cruzamento de tabelas, relacionamentos
+- **Status**: ❌ Pendente
+- **Conceitos-chave**: JOINs, relacionamentos, chaves
+
+### 🔥 [05 - Subqueries e CTEs](./sql-para-data-science/05-subqueries-ctes/README.md)
+**Aulas 23-30**: Consultas complexas, organização de código
+- **Status**: ❌ Pendente
+- **Conceitos-chave**: Subqueries, CTEs, Window Functions
+
+## 📈 Meu Progresso Geral
+- **Total de Aulas**: 30
+- **Concluídas**: 0
+- **Em Andamento**: 1 (Aula 00)
+- **Pendentes**: 29
 
 ## 🚀 Aplicação Imediata
-Cada conceito estudado é imediatamente aplicado no projeto [Loyalty Predict](link-para-seu-repositorio-loyalty), garantindo aprendizado contextualizado.
+Cada conceito está sendo aplicado no projeto [Loyalty Predict](../projetos/loyalty-predict-project/)
 
 ---
 
-## 📈 Progresso do Estudo
-- [ ] Consultas básicas (SELECT, FROM, WHERE)
-- [ ] Filtros avançados (CASE WHEN, LIKE)
-- [ ] Agregações e estatísticas 
-- [ ] JOINs e relacionamentos
-- [ ] Subqueries e CTEs
-
-## 🔗 Conexão com Projetos Reais
-Cada conceito aqui estudado está sendo aplicado em:
-- [Loyalty Predict](link) - Análise de engajamento de usuários
-- [Chargeback Analysis](link) - Análise de fraudes (futuro)
-
-*Este repositório faz parte da minha jornada de transição para Data Science profissional.*
+*Seguindo a metodologia do Teo MeWhy - Curso completo de SQL*
