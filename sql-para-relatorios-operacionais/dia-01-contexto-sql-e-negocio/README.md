@@ -1,39 +1,53 @@
-# 01 - Consultas Básicas
+# Dia 01 — Contexto de SQL no Negócio Operacional
 
-**Aulas 00-08** | Fundamentos do SQL e primeiros comandos
+## 🎯 Objetivo do Dia
+Compreender como o SQL é utilizado no dia a dia de áreas operacionais para
+consolidação de dados, acompanhamento de produtividade e suporte à tomada
+de decisão gerencial.
 
-## 📋 Progresso da Seção
-- **Aulas**: 9
-- **Concluídas**: 0
-- **Em Andamento**: 1
-- **Pendentes**: 8
-
-## 🗂️ Aulas desta Seção
-
-### 📚 Teoria & Fundamentos
-- [ ] [Aula 00 - Introdução](./aula-00-introducao.md) - 38:34
-- [ ] [Aula 01 - Primeiros Conceitos](./aula-01-primeiros-conceitos.md) - 27:00
-- [ ] [Aula 02 - O tal SQL](./aula-02-o-tal-sql.md) - 10:25
-
-### 🛠️ Configuração & Prática
-- [ ] [Aula 03 - SETUP](./aula-03-setup.md) - 8:07
-- [ ] [Aula 04 - OLÁ MUNDO!](./aula-04-ola-mundo.md) - 21:08
-- [ ] [Aula 05 - Dúvidas](./aula-05-duvidas.md) - 10:10
-
-### 🔄 Consolidação
-- [ ] [Aula 06 - Revisão SELECT](./aula-06-revisao-select.md) - 12:41
-- [ ] [Aula 07 - FROM](./aula-07-from.md) - 12:01
-- [ ] [Aula 08 - WHERE](./aula-08-where.md) - 43:44
-
-## 🎯 Objetivos de Aprendizado
-- [ ] Compreender a história e importância do SQL
-- [ ] Configurar ambiente de desenvolvimento
-- [ ] Escrever primeiras queries SELECT
-- [ ] Aplicar filtros básicos com WHERE
-
-## 🔗 Navegação
-- **Seção anterior**: (Esta é a primeira seção)
-- **Próxima seção**: [02 - Filtros Avançados](../02-filtros-avancados/README.md)
+Este dia estabelece a base conceitual para o uso de SQL em relatórios
+administrativos e dashboards, simulando um ambiente corporativo com dados
+no padrão de sistemas como Salesforce.
 
 ---
-*Seguindo a progressão pedagógica do curso do Teo MeWhy*
+
+## 🏢 Contexto de Negócio Simulado
+O projeto final simula um cenário onde:
+
+- Uma equipe operacional registra atividades em um sistema interno (CRM)
+- Os dados são armazenados em um banco relacional
+- A gestão precisa acompanhar:
+  - Volume de registros
+  - Produtividade por colaborador
+  - Evolução dos resultados ao longo do tempo
+
+O SQL será a principal ferramenta para extrair, organizar e preparar esses
+dados para visualização no Power BI.
+
+---
+
+## 🧠 Conceitos Abordados
+- O papel do SQL dentro de uma operação
+- Diferença entre dado bruto e informação gerencial
+- Como dados fluem do sistema até a diretoria
+- Relação entre SQL, indicadores (KPIs) e BI
+
+Fluxo típico:
+**Sistema → Banco de Dados → SQL → Power BI → Gestão**
+
+---
+
+## 🔗 Conexão com o Projeto Final
+Este entendimento será aplicado diretamente no projeto:
+
+📁 `projeto-final/relatorios-operacionais-salesforce-like`
+
+Todas as consultas SQL desenvolvidas nos próximos dias terão como objetivo
+alimentar relatórios e dashboards executivos.
+
+---
+
+## ✅ Entregáveis do Dia
+- Clareza sobre o uso prático de SQL no contexto corporativo
+- Base conceitual alinhada à rotina de um Analista de Relatórios
+- Preparação para iniciar consultas reais a partir do Dia 02
