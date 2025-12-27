@@ -1,46 +1,44 @@
-# 📊 SQL para Data Science - Fundamentos Aplicados
+# 📊 SQL para Relatórios Operacionais — Projeto Prático (Salesforce-like)
 
-**Repositório de estudos práticos de SQL com foco em aplicações reais de Data Science**
-
-## 🎯 Objetivo
-Dominar SQL para análise de dados, feature engineering e integração com pipelines de Machine Learning.
-
-## 🗂️ Estrutura do Curso por Seções
-
-### 🔥 [01 - Consultas Básicas](./sql-para-data-science/01-consultas-basicas/README.md)
-**Aulas 00-08**: Introdução, conceitos fundamentais, primeiros comandos
-- **Status**: 🟡 Em andamento
-- **Conceitos-chave**: SELECT, FROM, configuração de ambiente
-
-### 🔥 [02 - Filtros Avançados](./sql-para-data-science/02-filtros-avancados/README.md)  
-**Aulas 09-12**: Filtros complexos, condições, lógica booleana
-- **Status**: ❌ Pendente
-- **Conceitos-chave**: WHERE, CASE WHEN, operadores lógicos
-
-### 🔥 [03 - Agregações Estatísticas](./sql-para-data-science/03-agregacoes-estatisticas/README.md)
-**Aulas 13-19**: Funções agregadoras, agrupamento, estatísticas
-- **Status**: ❌ Pendente
-- **Conceitos-chave**: COUNT, GROUP BY, HAVING, funções estatísticas
-
-### 🔥 [04 - Joins e Relacionamentos](./sql-para-data-science/04-joins-relacionamentos/README.md)
-**Aulas 20-22**: Cruzamento de tabelas, relacionamentos
-- **Status**: ❌ Pendente
-- **Conceitos-chave**: JOINs, relacionamentos, chaves
-
-### 🔥 [05 - Subqueries e CTEs](./sql-para-data-science/05-subqueries-ctes/README.md)
-**Aulas 23-30**: Consultas complexas, organização de código
-- **Status**: ❌ Pendente
-- **Conceitos-chave**: Subqueries, CTEs, Window Functions
-
-## 📈 Meu Progresso Geral
-- **Total de Aulas**: 30
-- **Concluídas**: 0
-- **Em Andamento**: 1 (Aula 00)
-- **Pendentes**: 29
-
-## 🚀 Aplicação Imediata
-Cada conceito está sendo aplicado no projeto [Loyalty Predict](../projetos/loyalty-predict-project/)
+Repositório de estudos práticos de **SQL aplicado ao dia a dia de um Analista de Relatórios**, simulando um ambiente corporativo com dados no padrão **Salesforce** e visualização em **Power BI**.
 
 ---
 
-*Seguindo a metodologia do Teo MeWhy - Curso completo de SQL*
+## 🎯 Objetivo do Projeto
+
+Este repositório tem como objetivo **treinar SQL na prática**, focando em situações reais de trabalho, como:
+
+- Consolidação de dados operacionais
+- Análise de produtividade e metas
+- Criação de relatórios gerenciais
+- Apoio à tomada de decisão da supervisão
+- Preparação de dados para dashboards em Power BI
+
+Os dados utilizados são **fictícios**, porém modelados com base em estruturas comuns encontradas em CRMs como o **Salesforce** (leads, contas, oportunidades, atividades e usuários).
+
+---
+
+## 🧩 Contexto Simulado (Dia a Dia de Trabalho)
+
+O cenário simula uma equipe operacional responsável por atividades de campo e atendimento, onde é necessário:
+
+- Acompanhar **cadastros realizados**
+- Medir **produtividade por colaborador**
+- Avaliar **cumprimento de metas**
+- Gerar **relatórios semanais e mensais**
+- Disponibilizar dados consolidados para **dashboards executivos**
+
+O SQL é utilizado como ferramenta principal para **extração, transformação e organização dos dados** antes da visualização no Power BI.
+
+---
+
+## 🗂️ Estrutura do Repositório
+
+### 🔹 Trilha de Estudos em SQL
+```text
+sql-para-data-science/
+├── 01-consultas-basicas/
+├── 02-filtros-logica/
+├── 03-agregacoes-estatisticas/
+├── 04-joins-relacionamentos/
+└── 05-subqueries-ctes/
