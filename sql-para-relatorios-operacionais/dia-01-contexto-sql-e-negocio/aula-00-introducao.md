@@ -4,6 +4,12 @@
 Em ambientes corporativos, dados não estão em planilhas prontas.
 Eles vivem em bancos de dados que alimentam sistemas como CRM, ERPs e plataformas internas.
 
+---
+
+Aprender como analisar e manipular dados para gerar insights/tomar decisões estratégicas e inteligentes na sua área de atuação. Gerar relatórios, automatizar seu dia com rotinas que te fazem não precisar mexer no excel durante todo o dia. Tomar decisões baseadas em dados.
+
+---
+
 SQL é a ferramenta que permite:
 - Buscar dados específicos
 - Filtrar períodos, equipes e status
@@ -31,6 +37,35 @@ Elas exigem consultas SQL.
 
 ---
 
+## Profissionais de Dados
+
+- Engenharia de dados
+    - Coleta de dados
+    - Área que disponibiliza os dados
+
+- Ciência de dados
+    - Olha para o futuro. Tenta prever e realizar projeções, mesmo consumindo dados passados.
+    - Algoritmos de machine learning, deep leaning, IA, aplicações de dados.
+    - Preditiva, descritiva.
+
+-  Análise de dados
+    - Olha para os dados do presente ao passado para tomar melhores decisões de negócio.
+    - Envolve estatística, SQL, Python.
+
+Tanto analista quanto cientista, tenta resolver problemas de negócio através de dados. O que separa essas duas áreas é a variável resposta, que é nosso evento de interesse para predição. 
+
+Ambos resolvem problemas de dados por meio de técnicas analíticas e todos usam SQL.
+
+Engenharia de dados usa SQL para armazenar os dados no banco, entender se a qualidade está ok, consultar e realizar ingestão de mais dados.
+Analise de dados usa SQL para análise e consulta de dados.
+E ciencia de dados usa SQL para preparar o dado para treinar os algoritmos.
+
+SQL é a linguagem de dados.
+
+
+
+---
+
 ## Conclusão
 Antes de escrever SQL, é fundamental entender:
 - Quem usa a informação
@@ -38,3 +73,9 @@ Antes de escrever SQL, é fundamental entender:
 - Qual decisão será tomada a partir dela
 
 Esse entendimento guiará todas as consultas dos próximos dias.
+
+---
+
+
+
+Com dados, temos a possibilidade de tomar melhores decisões.
