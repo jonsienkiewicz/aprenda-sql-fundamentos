@@ -51,3 +51,13 @@ alimentar relatórios e dashboards executivos.
 - Clareza sobre o uso prático de SQL no contexto corporativo
 - Base conceitual alinhada à rotina de um Analista de Relatórios
 - Preparação para iniciar consultas reais a partir do Dia 02
+
+---
+
+## 🧠 Como isso aparece no trabalho
+
+No dia a dia, esse conteúdo é usado quando:
+- preciso extrair dados de uma tabela
+- montar relatórios simples
+- responder perguntas operacionais
+
