@@ -1,0 +1,8 @@
+# Dados locais e sensíveis do curso
+curso-sql/
+
+# Bancos de dados locais
+*.db
+
+# Arquivos de dados
+*.csv
